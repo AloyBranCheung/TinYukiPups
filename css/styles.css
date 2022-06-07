@@ -181,8 +181,12 @@ p {
         margin-bottom: 5%;
     }
 
-#title {
+#title .container-fluid{
     text-align: center;
+}
+
+.nav-item {
+    text-align: right;
 }
 }
 
