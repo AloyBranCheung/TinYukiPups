@@ -1,0 +1,193 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+h3 {
+    font-weight: bold;
+    line-height: 1.5;
+}
+p {
+    color: #565555;
+}
+
+/****************************** Container ****************************/
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/****************************** Sections ****************************/
+.colored-section { 
+    background-color: #ff4c68;
+    color: white;
+}
+.white-section { 
+    background-color: white;
+}
+
+
+/****************************** Title ****************************/
+.title-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    position: relative;
+    z-index: 0;
+    text-align: left;
+}
+
+/***************************** Navigation Bar ****************************/
+.navbar {
+    margin-bottom: 2.5%;
+    padding-bottom: 0 0 6.0rem 0;
+}
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.nav-link {
+    font-family: "Montserrat-Light", sans-serif;
+    font-size: 1.2rem;
+}
+/***************************** Title Download Button ****************************/
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+/* Title Image */
+.title-image {
+    display: block;
+    margin-top: 5%;
+    margin: auto;
+    position: absolute;
+    right: 20%;
+    transform: rotate(25deg);
+    width: 22.5%;
+    z-index: -1;
+}
+/***************************** Features ****************************/
+.feature-col{
+    padding: 0 1rem 0 1rem;
+}
+.feature-fa{
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+.feature-fa:hover {
+    color: #ff4c68;
+}
+
+.feature-h3 {
+    font-weight: bold;
+    line-height: 1.5;
+}
+#features {
+    position: relative;
+}
+/***************************** Testimonials ****************************/
+.testimonial-image {
+    border-radius: 100%;
+    margin: 2.5%;
+    width: 10%;
+}
+
+.carouselTxt {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.press-img {
+    margin: 2.5% 2.5% 2.5% 2.5%;
+    width: 15%;
+}
+#testimonials {
+    background-color: #ef8172;
+}
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+/***************************** Pricing ****************************/
+.price-text {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+.price-section-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+#pricing {
+    padding: 5%;
+}
+/***************************** Footer ****************************/
+.ctaButton {
+    margin: 0 4% 0 4%;
+}
+.footerIcon {
+    margin: 0 1% 2.5% 1%;
+}
+.footerAnchor {
+    color: black;
+}
+
+.cta {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: bold;
+}
+.h3Cta {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-bottom: 2.5%;
+    margin-bottom: 5%;
+}
+#footer {
+    color: black;
+}
+#footerID {
+    color: rgba(0, 0, 0, 0.516);
+}
+
+/***************************** Responsive Design Exceptions ****************************/
+@media (max-width: 1000px) {
+.title-image {
+        display: block;
+        margin-bottom: 10%;
+        margin-top: 10%;
+        margin: auto;
+        position: static;
+        right: 20%;
+        top: 17.5%;
+        transform: rotate(0);
+        width: 60%;
+        z-index: 0;
+    }
+
+.ctaButton{
+        margin-bottom: 5%;
+    }
+
+#title .container-fluid{
+    text-align: center;
+}
+
+.nav-item {
+    text-align: right;
+}
+}
+
+
